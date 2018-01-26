@@ -49,7 +49,7 @@ input:focus {
 
 /* Photo Gallery ---------------*/
 
-.wrapper {
+.gallery {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -67,11 +67,11 @@ input:focus {
 
   @media (min-width: 768px) {
 
-  .gallery img {
+  img {
     width: 200px;
   }
 
-  .wrapper {
+  .gallery {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
