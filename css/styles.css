@@ -63,6 +63,10 @@ input:focus {
    max-width: 1000px;
 }
 
+a:focus {
+    outline: none;
+  }
+
 /* Media Queries ---------------*/
 
   @media (min-width: 768px) {
